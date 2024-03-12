@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(images/PatternPink.png);
+  height: 800px;
+  width: 360px;
+}
+
+header {
+  background-image: url(images/PatternBlue.png);
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  background-color: aliceblue;
+  width: 296px;
+  height: 64px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  font-size: 32px;
+}
+
+.imagem {
+  position: absolute;
+  top: 128px;
+}
+
+.imagem img {
+  width: 300px ;
+  height: 300px;
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  width: 288px;
+  height: 200px;
+  margin-top: 196px;
+  letter-spacing: 5%;
+}
+
+p {
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 12px;
+}
+
+.saiba-mais {
+  background-color: transparent;
+  width: 188px;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.doar {
+  background-image: url(images/PatternBlue.png);
+  width: 194px;
+  height: 64px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 2px;
+  border: none;
+  font-size: 24px;
+}
